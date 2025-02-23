@@ -31,7 +31,9 @@
     flex-direction: column;
     color: #fff;
     cursor: pointer;
-    opacity: 0
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
 }
 
 .caption img{
@@ -41,4 +43,5 @@
 
 .program:hover .caption{
     opacity: 1;
+    padding-top: 0;;
 }
