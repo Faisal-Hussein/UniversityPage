@@ -1,8 +1,8 @@
 import React from 'react'
 import './Programs.css'
-import program_1 from '../../assets/programs-1.png'
-import program_2 from '../../assets/programs-2.png'
-import program_3 from '../../assets/programs-3.png'
+import program_1 from '../../assets/program-1.png'
+import program_2 from '../../assets/program-2.png'
+import program_3 from '../../assets/program-3.png'
 
 const Programs = () => {
   return (
