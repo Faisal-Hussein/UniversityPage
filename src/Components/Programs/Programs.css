@@ -26,3 +26,8 @@
     right: 0;
     background: rgba(0, 15, 152, 0.3);
 }
+
+.caption img{
+    width: 60px;
+    
+}
