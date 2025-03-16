@@ -23,6 +23,11 @@ const Testimonials = () => {
                 <span>Edusity, USA</span>
               </div>
             </div>
+            <p>Choosing to pursue my degree at Edusity was one of 
+              the best decisions I've ever made. The supportive community, state-of-the-art facilities,
+              and committment to academic excellence have truly exceeded
+              my expectations.
+            </p>
           </div>
         </li>
       </ul>
