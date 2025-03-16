@@ -23,3 +23,10 @@
 .slider{
     overflow: hidden;
 }
+
+.slider ul{
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
