@@ -33,7 +33,23 @@ const Testimonials = () => {
         <li>
           <div className="slide">
             <div className="user-info">
-              <img src={user_1} alt="" />
+              <img src={user_2} alt="" />
+              <div>
+                <h3>William Jackson</h3>
+                <span>Edusity, USA</span>
+              </div>
+            </div>
+            <p>Choosing to pursue my degree at Edusity was one of 
+              the best decisions I've ever made. The supportive community, state-of-the-art facilities,
+              and committment to academic excellence have truly exceeded
+              my expectations.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div className="slide">
+            <div className="user-info">
+              <img src={user_2} alt="" />
               <div>
                 <h3>William Jackson</h3>
                 <span>Edusity, USA</span>
