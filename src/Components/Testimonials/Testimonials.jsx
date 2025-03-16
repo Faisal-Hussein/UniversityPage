@@ -14,7 +14,16 @@ const Testimonials = () => {
       <img src={back_icon} alt="" className='back-btn'/>
       <div className="slider"></div>
       <ul>
-        <li></li>
+        <li>
+          <div className="slide">
+            <div className="user-info">
+              <img src={user_1} alt="" />
+              <div>
+                <h3></h3>
+              </div>
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   )
