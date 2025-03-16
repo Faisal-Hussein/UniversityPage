@@ -12,7 +12,7 @@ const Testimonials = () => {
     <div className='testimonials'>
       <img src={next_icon} alt="" className='next-btn'/>
       <img src={back_icon} alt="" className='back-btn'/>
-      <div className="slider"></div>
+      <div className="slider">
       <ul>
         <li>
           <div className="slide">
@@ -80,6 +80,7 @@ const Testimonials = () => {
         </li>
       </ul>
     </div>
+  </div>
   )
 }
 
