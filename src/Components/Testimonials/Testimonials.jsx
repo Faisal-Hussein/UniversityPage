@@ -13,6 +13,9 @@ const Testimonials = () => {
       <img src={next_icon} alt="" className='next-btn'/>
       <img src={back_icon} alt="" className='back-btn'/>
       <div className="slider"></div>
+      <ul>
+        <li></li>
+      </ul>
     </div>
   )
 }
