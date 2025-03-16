@@ -18,5 +18,8 @@
 .back-btn{
     right: auto;
     left: 0;
-    
+}
+
+.slider{
+    overflow: hidden;
 }
