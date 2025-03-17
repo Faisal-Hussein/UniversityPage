@@ -24,6 +24,7 @@ const Contact = () => {
       <div className="contact-col">
         <form action="">
           <label>Your name</label>
+          <input type="text" name='name' placeholder='Enter your name' required/>
         </form>
       </div>
     </div>
