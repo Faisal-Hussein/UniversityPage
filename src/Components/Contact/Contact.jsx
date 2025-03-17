@@ -22,7 +22,9 @@ const Contact = () => {
         </ul>
       </div>
       <div className="contact-col">
-        <form action=""></form>
+        <form action="">
+          <label>Your name</label>
+        </form>
       </div>
     </div>
   )
