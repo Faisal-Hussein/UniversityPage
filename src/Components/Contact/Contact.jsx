@@ -11,6 +11,11 @@ const Contact = () => {
           are important to us as we strive to provide exceptional service to our
           university community.
         </p>
+        <ul>
+          <li>Contact@Email.com</li>
+          <li>+1 123-456-7890</li>
+          <li>77 Massachussets Ave, Cambridge <br /> MA 02139, United States</li>
+        </ul>
       </div>
       <div className="contact-col"></div>
     </div>
