@@ -18,10 +18,10 @@ const Navbar = () => {
         <img src={logo} alt="" className='logo'/>
         <ul>
             <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
-            <li>Program</li>
-            <li>About us</li>
-            <li>Campus</li>
-            <li>Testimonials</li>
+            <li><Link to='hero' smooth={true} offset={0} duration={500}>Program</li>
+            <li><Link to='hero' smooth={true} offset={0} duration={500}>About us</li>
+            <li><Link to='hero' smooth={true} offset={0} duration={500}>Campus</li>
+            <li><Link to='hero' smooth={true} offset={0} duration={500}>Testimonials</li>
             <li><button className='btn'>Contact us</button></li>
         </ul>
     </nav>
