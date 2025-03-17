@@ -25,6 +25,8 @@ const Contact = () => {
         <form action="">
           <label>Your name</label>
           <input type="text" name='name' placeholder='Enter your name' required/>
+          <label>Phone Number</label>
+          <input type="tel" name='phone' placeholder='Enter your phone number' required/>
         </form>
       </div>
     </div>
