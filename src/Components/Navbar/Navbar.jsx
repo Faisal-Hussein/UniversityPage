@@ -14,6 +14,11 @@ const Navbar = () => {
     })
   },[]);
 
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const toggleMenu = ()=>{
+
+  }
+
   return (
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
         <img src={logo} alt="" className='logo'/>
@@ -25,7 +30,7 @@ const Navbar = () => {
             <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
             <li><Link to='contact' smooth={true} offset={-260} duration={500}>Contact us</Link></li>
         </ul> 
-        <img src={menu_icon} alt="" className='menu-icon'/>
+        <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>
   )
 }
