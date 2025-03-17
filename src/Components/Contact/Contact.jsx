@@ -49,7 +49,7 @@ const Contact = () => {
         </ul>
       </div>
       <div className="contact-col">
-        <form>
+        <form onSubmit={onSubmit}>
           <label>Your name</label>
           <input type="text" name='name' placeholder='Enter your name' required/>
           <label>Phone Number</label>
