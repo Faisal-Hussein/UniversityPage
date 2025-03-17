@@ -27,6 +27,9 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Enter your name' required/>
           <label>Phone Number</label>
           <input type="tel" name='phone' placeholder='Enter your phone number' required/>
+          <label>Write your message here</label>
+          <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
+          <button type='submit' className='btn dark-btn'>Submit now</button>
         </form>
       </div>
     </div>
