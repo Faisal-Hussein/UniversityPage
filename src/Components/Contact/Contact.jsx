@@ -21,7 +21,9 @@ const Contact = () => {
           <li><img src={location_icon} alt="" />77 Massachussets Ave, Cambridge <br /> MA 02139, United States</li>
         </ul>
       </div>
-      <div className="contact-col"></div>
+      <div className="contact-col">
+        <form action=""></form>
+      </div>
     </div>
   )
 }
