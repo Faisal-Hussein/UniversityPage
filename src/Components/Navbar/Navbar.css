@@ -58,4 +58,9 @@ nav ul li{
         display: block;
         margin: 25px 40px;
     }
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
 }
