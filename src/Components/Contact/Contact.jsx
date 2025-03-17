@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
-import msg_icon from '../../assets/msg-icon.png'
+import phone_icon from '../../assets/phone-icon.png'
 import msg_icon from '../../assets/msg-icon.png'
 
 const Contact = () => {
