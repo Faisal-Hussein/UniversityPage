@@ -16,7 +16,7 @@ const Contact = () => {
           university community.
         </p>
         <ul>
-          <li>Contact@Email.com</li>
+          <li><img src={mail_icon} alt="" />Contact@Email.com</li>
           <li>+1 123-456-7890</li>
           <li>77 Massachussets Ave, Cambridge <br /> MA 02139, United States</li>
         </ul>
